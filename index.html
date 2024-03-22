@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prarup Regmi</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/4d208daccb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+          <img src="logoWhite.png" class="logo" alt="logo">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="#certs">Licenses & Certificates</a></li> -->
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+          
+        </nav>
+      <div class="header-text">
+        <p>Environmental Science</p>
+        <h1><span class="auto-type"></span><br> I'm <span>Prarup</span><br>From Nepal</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section below -->
+</div>
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img style="opacity: 0.7;" src="theImage.png" alt="Image">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>My educational background qualifies me as an environmental scientist. However, my actual calling is programming, and I am an avid researcher in satellite imaging technologies, photogrammetry, and the exciting field of AR/VR. I am passionate about software development and solving problems through environment modeling. My diversified skills and hands-on experience allow me to design innovative and complete solutions using various software and hardware technologies.</p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+          <p class="tab-links" onclick="opentab('volunteering')">Volunteering</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Unity</span><br>Creating 2D & 3D Games with mesh and basic ML behaviours</li>
+            <li><span>HTML/CSS/Js</span><br>Creating Responsive Websites</li>
+            <li><span>Reality Scan</span><br>Creating 3D Models</li>
+            <li><span>C#/ Python/ JS</span><br>Creating Console and Desktop Applications</li>
+            <li><span>Matlab/ Python</span><br>Statistical learning, model creation and computer vision</li>
+            <li><span>Documentation</span><br>Formatting documents in different research formats using LaTeX, Docs, and Sheets</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>Smart Scape Inc.</span><br>Full-time <br>Digital Twin Development Section,  IT
+              Engineering  department<br>Current<br>Nov. 1 2023 - Present <br><br>Internship  <br>Digital Twin Development Section,  IT
+              Engineering  department <br>Sept. 1 2023 - Oct. 31 2023</li>
+            <li><span>Nepal Electricity Authority Engineering Co.Ltd., NEA, GoN</span><br>Associate Environmentalist <br>Provincial EIA and IEE development <br>Aug. 2022 - Aug. 2023</li>
+            <li><span>Third Pole Conservancy</span><br>Intern <br>Biodiversity field protocol development, Humla <br>Dec. 2021 - Apr. 2022</li>
+            <li><span>Kathmandu Institute of Applied Sciences</span><br>Research Assistant <br>Presidential Chure Conservation Program <br>Mar. 2021 - Dec. 2021</li>
+            <li><span>World Wildlife Fund - Nepal</span><br>Project Lead <br>The Generation Green Program (Mentee) <br>Mar. 2017 - Oct. 2017</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>Kathmandu University, Dhulikhel, Nepal</span><br>BSc. Environmental Science<br>Aug. 15 2015 - Dec. 19 2019</li>
+            <li><span>Kanjirowa Higher Secondary School, Balkumari, Kathmandu </span><br>HSEB - Science </li>
+            <li><span>Nobel Academy Higher Secondary School</span><br>School Leaving Certificate</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="volunteering">
+          <ul>
+            <li><span>Nature and Social Concern Society, Department of Environmental Science, Kathmandu University</span><br>Treasurer/Executive member/Organizer  <br>Management of stakeholders, volunteers and donors with transparent reporting and forming program budgets<br>Aug. 2017 - Feb. 2019</li>
+            <li><span>Youth Hand for Helpline</span><br><br>Founding Member<br>Establishment of public library in Sindupalchowk, after earthquake of 2015; Conducted annual career workshops for high school graduates in Kathmandu<br> 2016 - 2017</li>
+            <li><span>Namuna Basti Youth Club</span><br><br>Active Member<br>Monthly community cleanup program and meditation sessions for "Jivan vigyaan"<br> 2010 - present</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- projects Section -->
+<div id="projects" class="hide">
+  <div class="container">
+    <div class="sub-title" style="font-weight: bold;">Projects</div>
+    <div class="project-list">
+      <div class="project">
+        <img src="theGalaxyShooter.png" alt="The Galaxy Shooter">
+        <div class="layer">
+          <h3>The Galaxy Shooter</h3>
+          <p>Get ready to embark on an adventure destroying enemy ships in the deep, dark, and cold space.,<br><br> <p style="color: red; font-weight: bold;">!!If server is not active, contact host!!</p></p>
+          <a target="_blank" href="https://rohittbhusal.centralindia.cloudapp.azure.com/TSW/"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+          <p>2D Game</p>
+        </div>
+      </div>
+      <div class="project">
+        <img src="theEscape.png" alt="The Dungeon Escape">
+        <div class="layer">
+          <h3>The Dungeon Escape</h3>
+          <p>Are you ready adventurer? Face the Monsters, Spiders, and Zombies in this ancient Dungeon<br><br> <p style="color: red; font-weight: bold;">!!If server is not active, contact host!!</p></p>
+          <a target="_blank" href="https://rohittbhusal.centralindia.cloudapp.azure.com/TDE/"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+          <p>2D Game</p>
+        </div>
+      </div>
+      <div class="project">
+        <img src="theGreatFleece.png" alt="The Great Fleece">
+        <div class="layer">
+          <h3>The Great Fleece</h3>
+          <p>Play as Devin, the heist master. Dodge guards and security cams; find a way to get to the great hall where the real treasure is. Are you cunning enough? <br><br> <p style="color: red; font-weight: bold;">!!If server is not active, contact host!!</p></p>
+          <a target="_blank" href="https://rohittbhusal.centralindia.cloudapp.azure.com/TGF/"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+          <p>3D Game</p>
+        </div>
+      </div>
+      <div class="project">
+        <img src="theGreatHouse.png" alt="The Great House">
+        <div class="layer">
+          <h3>The Great House Tour</h3>
+          <p>Enter My Friend's House in 3D, a photogramettry project.<br><br> <p style="color: red; font-weight: bold;">!!If server is not active, contact host!!</p></p>
+          <a target="_blank" href="https://rohittbhusal.centralindia.cloudapp.azure.com/TGH/"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+          <p>3D House Tour</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left-col">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fas fa-paper-plane"></i> rohittbhusal@gmail.com</p>
+        <p><i class="fas fa-phone"></i> (+977) 9847027176</p>
+        <div class="social-icons">
+          <a target="_blank" href="https://www.facebook.com/rohittbhusal"><i class="fab fa-facebook"></i></a>
+          <a target="_blank" href="https://www.instagram.com/rohittbhusal"><i class="fab fa-instagram"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/rohittbhusal"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <a href="rohitBhusalCV.pdf" download class="btn">Download CV</a>
+      </div>
+      <div class="contact-right-col">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright &copy; Rohit</p>
+  </div>
+</div>
+
+<a class="to-top" href="#header"><i class="fa-solid fa-arrow-up"></i></a>
+  
+<script>
+  const tablinks = document.getElementsByClassName("tab-links");
+  const tabcontents = document.getElementsByClassName("tab-contents");
+  const opentab = (tabname) => {
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+
+  const sidemenu = document.getElementById("sidemenu");
+  function openmenu(){
+    sidemenu.style.right = "0";
+    document.querySelector("html").style.overflowY = "hidden";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+    document.querySelector("html").style.overflowY = "visible";
+  }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw8CHMHIDD8KEMVAkU7YrC4VS87g7sDEOCIrHLSZ-O0sfdAR6S3IuCsxDgVQF64pUUo/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Successful";
+        setTimeout(() => {
+          msg.innerHTML = "";
+        }, 5000);
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+  const typed = new Typed(".auto-type", {
+    strings: ["Hi", "こんにちは", "नमस्ते"],
+    typeSpeed: 150,
+    backSpeed: 150,
+    loop: true
+  });
+</script>
+</body>
+</html>
